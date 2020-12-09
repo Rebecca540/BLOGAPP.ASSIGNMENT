@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: yellowgreen; */
+  /* background: url(../images/blogapp.jpg); */
+  padding: 50px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(213, 130, 238);
+  background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlubmVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.login {
+  justify-content: center;
+  text-align: center;
+  width: 468px;
+  background-color: red;
+  /* background-color: red; */
+  /* background: url(./images/blogapp.jpg); */
+  /* max-width: 260px; */
+  height: 260px;
+}
+
+.basecontainer input {
+  width: 100%;
+  padding: 9px 22px;
+}
+
+.basecontainer button {
+  outline: none;
+  border: none;
+  padding: 9px 24px;
+  margin-top: 15px;
+}
+
+.basecontainer {
+  /* background: url(../images/blogapp.jpg); */
+  height: 10rem;
+  width: 468px;
+  /* border: 1px solid black; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+content {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana;
+  text-align: center;
+}
+.form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
